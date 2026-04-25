@@ -19,6 +19,6 @@ spec:
     spec:
       containers:
       - name: enrollment-service
-        image: 271376211486.dkr.ecr.eu-west-1.amazonaws.com/enrollment-service:latest
+        image: 476114134361.dkr.ecr.eu-west-1.amazonaws.com/enrollment-service:latest
         ports:
         - containerPort: 8083
