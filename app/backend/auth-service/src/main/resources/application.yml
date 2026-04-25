@@ -6,7 +6,7 @@ spring:
     name: auth-service
   data:
     mongodb:
-      uri: ${mongodb+srv://ri:Hcp0UK6fVTjKKXob@k8s.aquj9hz.mongodb.net/myDB?retryWrites=true&w=majority&appName=k8s}
+      uri: mongodb+srv://ri:Hcp0UK6fVTjKKXob@k8s.aquj9hz.mongodb.net/myDB?retryWrites=true&w=majority&appName=k8s
   security:
     user:
       name: admin
